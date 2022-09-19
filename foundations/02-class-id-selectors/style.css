@@ -1,0 +1,19 @@
+.cls-one {
+    background-color: rgb(222, 168, 177);
+    font-family: Verdana, 'DejaVu Sans', 'sans-serif';
+}
+
+#id-one {
+    color:rgb(25, 121, 238);
+    font-size: 36px;
+}
+
+.cls-one.cool {
+    font-size: 24px;
+}
+
+#id-two {
+    background-color: rgb(125, 195, 125);
+    font-size: 24px;
+    font-weight: bold;
+}
