@@ -12,7 +12,7 @@ body {
   color: white;
   font-weight: 900;
   font-size: 32px;
-  padding-left: 16px;
+  padding: 0 16px;
   display: flex;
   align-items: center;
 }
@@ -30,31 +30,32 @@ body {
   width: 300px;
   background: royalblue;
   padding: 16px;
-  display: flex;
-  flex: 1 0 300px;
+  flex: 1 0 auto;
 }
 
-ul,
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+ margin-bottom: 16px;
+}
+
 a {
-  list-style: none;
   text-decoration: none;
   color: white;
   font-size: 24px;
-  padding: 0;
-  margin: 0;
-  line-height: 1.6;
-  
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1 0 300px;
-  min-width: 200px;
-  min-height: 200px;
+  width: 300px;
   margin: 16px;
-  padding: 8px;
+  padding: 16px;
 }
 
 .cards {
@@ -65,7 +66,6 @@ a {
 }
 
 .middle {
-  display: inline-flex;
-  min-height: 100%;
+  display: flex;
   flex: 1;
 }
